@@ -74,6 +74,10 @@ Once the infrastructure is deployed, you have several options on how you wish to
 
 - Run `func host start` to start debugging or use the [debugger in VS Code](https://docs.microsoft.com/en-us/azure/python/tutorial-vs-code-serverless-python-04)
 
+## Testing 
+
+As part of this repository there are pytest and tox facilities included for testing. To use this, install tox and pytest in your testing environment and run the `tox` command in the root of this repo to begin testing. You can find more guidance on running these in the [pytest](https://docs.pytest.org/en/latest/) and [tox](https://tox.readthedocs.io/en/latest/) documentation sites.
+
 ## Monitoring the Functions
 
 Once your Functions is deployed, you can access the Functions resource from the Azure Portal. Each deployed function has a monitoring feature based on Azure Application Insights. 
