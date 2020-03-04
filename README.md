@@ -82,8 +82,6 @@ As part of this repository there are pytest and tox facilities included for test
 
 Once your Functions is deployed, you can access the Functions resource from the Azure Portal. Each deployed function has a monitoring feature based on Azure Application Insights. 
 
-<img width="90%" src="../images/monitor_functions.jpg" alt="monitor_functions">
-
 From there, you can explore the run's results. Click on one of them to get all the log's details.
 
 Access `Run in Application Insights` to monitor the function further. From there, you can build queries to quickly retrieve, consolidate, and analyze collected logs. You can also save queries for use with visualizations or alert rules.
