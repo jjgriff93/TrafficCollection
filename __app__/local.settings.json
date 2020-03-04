@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AZURE_MAPS_ENDPOINT": "https://atlas.microsoft.com/",
+    "NUM_OF_ROUTES_PER_CITY": "100",
+    "CITIES_CONFIG_URL": "https://storageboltproject.blob.core.windows.net/polygons/polygons.json",
+    "TRAFFICTILES_OUTPUT_URL": "https://storageboltproject.blob.core.windows.net/traffictiles",
+    "TRAFFICROUTES_OUTPUT_URL": "https://storageboltproject.blob.core.windows.net/trafficroutes",
+    "SCHEDULE": "0 */1 * * * *",
+    "KEY_VAULT": "https://bolt-trafficfunc-kv.vault.azure.net/",
+    "AZURE_CLIENT_ID": "microsoft.onmicrosoft.com",
+    "AZURE_TENANT_ID": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+  }
+}

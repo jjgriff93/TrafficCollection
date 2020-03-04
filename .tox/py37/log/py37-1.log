@@ -1,0 +1,42 @@
+action: py37, msg: getenv
+cwd: C:\Users\jamesgr\Desktop\TEAL\teal-ml\traffic-collection
+cmd: 'C:\Users\jamesgr\Desktop\TEAL\teal-ml\traffic-collection\.tox\py37\Scripts\python.EXE' -m pip install pytest pytest-mock pytest-cov flake8-junit-report flake8 '-rC:\Users\jamesgr\Desktop\TEAL\teal-ml\traffic-collection/__app__/requirements.txt'
+Collecting pytest
+  Using cached https://files.pythonhosted.org/packages/a5/c0/34033b2df7718b91c667bd259d5ce632ec3720198b7068c0ba6f6104ff89/pytest-5.3.5-py3-none-any.whl
+Collecting pytest-mock
+  Downloading https://files.pythonhosted.org/packages/99/95/d108de3eed0ae29d98c94c918c1245713e7f222dead2d77c24bc4ca7ca0c/pytest_mock-2.0.0-py2.py3-none-any.whl
+Collecting pytest-cov
+  Downloading https://files.pythonhosted.org/packages/b9/54/3673ee8be482f81527678ac894276223b9814bb7262e4f730469bb7bf70e/pytest_cov-2.8.1-py2.py3-none-any.whl
+Collecting flake8-junit-report
+  Downloading https://files.pythonhosted.org/packages/e4/66/582e8622db2bdff48d1236963ac66b2b3ab510b133a2213f4a9c19a19f2c/flake8-junit-report-2.1.0.tar.gz
+Collecting flake8
+  Using cached https://files.pythonhosted.org/packages/f8/1f/7ea40d1e4146ea55dbab41cda1376db092a75794914169aabd7e8d7a7def/flake8-3.7.9-py2.py3-none-any.whl
+Collecting azure-functions
+  Using cached https://files.pythonhosted.org/packages/99/11/e964058114948baf0088fa0ace001375595cee9ba6edf81d91feb26a64b1/azure_functions-1.0.8-py3-none-any.whl
+Collecting numpy==1.17.4
+  Using cached https://files.pythonhosted.org/packages/34/40/c6eae19892551ff91bdb15f884fef2d42d6f58da55ab18fa540851b48a32/numpy-1.17.4-cp37-cp37m-win_amd64.whl
+Collecting requests==2.22.0
+  Using cached https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl
+Collecting pandas==0.25.3
+  Using cached https://files.pythonhosted.org/packages/02/d0/1e8e60e61e748338e3a40e42f5dfeee63ccdecfc4f0894122b890bfb009a/pandas-0.25.3-cp37-cp37m-win_amd64.whl
+Collecting azure-storage-blob==12.1.0
+  Using cached https://files.pythonhosted.org/packages/02/16/988b90dd1506c7508bf83624daa23ad9a137a637c0094ab37fd8850b7bd1/azure_storage_blob-12.1.0-py2.py3-none-any.whl
+Collecting shapely==1.6.4.post2
+  Using cached https://files.pythonhosted.org/packages/a2/fb/7a7af9ef7a35d16fa23b127abee272cfc483ca89029b73e92e93cdf36e6b/Shapely-1.6.4.post2.tar.gz
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\Users\jamesgr\Desktop\TEAL\teal-ml\traffic-collection\.tox\py37\Scripts\python.EXE' -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\jamesgr\\AppData\\Local\\Temp\\pip-install-x0ltog85\\shapely\\setup.py'"'"'; __file__='"'"'C:\\Users\\jamesgr\\AppData\\Local\\Temp\\pip-install-x0ltog85\\shapely\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base 'C:\Users\jamesgr\AppData\Local\Temp\pip-install-x0ltog85\shapely\pip-egg-info'
+         cwd: C:\Users\jamesgr\AppData\Local\Temp\pip-install-x0ltog85\shapely\
+    Complete output (9 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\jamesgr\AppData\Local\Temp\pip-install-x0ltog85\shapely\setup.py", line 80, in <module>
+        from shapely._buildcfg import geos_version_string, geos_version, \
+      File "C:\Users\jamesgr\AppData\Local\Temp\pip-install-x0ltog85\shapely\shapely\_buildcfg.py", line 200, in <module>
+        lgeos = CDLL("geos_c.dll")
+      File "c:\program files (x86)\microsoft visual studio\shared\python37_64\Lib\ctypes\__init__.py", line 364, in __init__
+        self._handle = _dlopen(self._name, mode)
+    OSError: [WinError 126] The specified module could not be found
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 19.3.1; however, version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
