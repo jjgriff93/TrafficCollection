@@ -1,5 +1,5 @@
 azure-functions
-numpy == 1.17.4
+numpy == 1.22.0
 requests == 2.22.0
 pandas == 0.25.3
 azure-storage-blob == 12.1.0
